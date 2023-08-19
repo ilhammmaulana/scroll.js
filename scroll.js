@@ -1,4 +1,3 @@
-console.log('About Developer : https://github.com/ilhammmaulana')
 
 const observer = new IntersectionObserver((items) => {
     items.forEach((item) => {
