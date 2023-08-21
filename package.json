@@ -1,0 +1,35 @@
+{
+  "name": "scroll.js",
+  "version": "0.0.0",
+  "description": "Animation scroll library easy to use and customize",
+  "main": "scroll.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "dev",
+    "build": "webpack -o ./dist --output-filename scroll.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilhammmaulana/scroll.js.git"
+  },
+  "author": "ilhammmaulana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilhammmaulana/scroll.js/issues"
+  },
+  "homepage": "https://github.com/ilhammmaulana/scroll.js#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "node-sass": "^9.0.0",
+    "sass-loader": "^13.3.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
