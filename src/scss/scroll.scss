@@ -1,0 +1,90 @@
+.hide-scroll-animation {
+    opacity: 0;
+    transition: all .4s;
+}
+
+.show-scroll-animation {
+    opacity: 1;
+    filter: blur(0px) !important;
+    transform: translateY(0px) translateX(0px) !important;
+}
+
+.hide-scroll-animation.slide-down {
+    transform: translateY(100%);
+}
+
+
+
+.hide-scroll-animation.slide-right {
+    transform: translateX(-100%);
+    filter: blur(5px);
+}
+
+.hide-scroll-animation.slide-left {
+    transform: translateX(100%);
+    filter: blur(5px);
+}
+
+.hide-scroll-animation.slide-up {
+    transform: translateY(-100%);
+}
+
+.hide-scroll-animation.delay-100 {
+    transition-delay: 100ms !important;
+}
+
+.hide-scroll-animation.delay-200 {
+    transition-delay: 200ms !important;
+}
+
+.hide-scroll-animation.delay-300 {
+    transition-delay: 300ms !important;
+}
+
+.hide-scroll-animation.delay-400 {
+    transition-delay: 400ms !important;
+}
+
+.hide-scroll-animation.delay-500 {
+    transition-delay: 500ms !important;
+}
+
+
+.hide-scroll-animation.delay-600 {
+    transition-delay: 600ms !important;
+}
+
+.hide-scroll-animation.delay-700 {
+    transition-delay: 700ms !important;
+}
+
+
+.hide-scroll-animation.delay-800 {
+    transition-delay: 800ms !important;
+}
+
+.hide-scroll-animation.delay-900 {
+    transition-delay: 900ms !important;
+}
+
+.hide-scroll-animation.delay-1000 {
+    transition-delay: 1s;
+}
+
+.hide-scroll-animation.delay-1200 {
+    transition-delay: 1.2s;
+}
+
+.hide-scroll-animation.delay-1400 {
+    transition-delay: 1.4s;
+}
+
+.hide-scroll-animation.delay-1600 {
+    transition-delay: 1.6s;
+}
+
+@media (prefers-reduced-motion) {
+    .hide-scroll-animation {
+        transition: none !important;
+    }
+}

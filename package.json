@@ -9,7 +9,8 @@
   },
   "scripts": {
     "test": "dev",
-    "build": "webpack -o ./dist --output-filename scroll.min.js"
+    "sass": "node-sass src/scss/scroll.scss dist/css/scroll.css",
+    "build": "webpack "
   },
   "repository": {
     "type": "git",
@@ -28,8 +29,11 @@
     "eslint-plugin-prettier": "^5.0.0",
     "node-sass": "^9.0.0",
     "sass-loader": "^13.3.2",
-    "webpack": "^5.88.2",
-    "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.15.1"
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.0",
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "babel-loader": "^8.2.5"
   }
 }
