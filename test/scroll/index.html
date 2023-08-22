@@ -1,26 +1,38 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AOS</title>
+    <title>Scroll.js</title>
     <!-- Scroll.js CSS -->
-    <link rel="stylesheet" href="../dist/css/scroll.css" />
+    <link rel="stylesheet" href="../../dist/css/scroll.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="item">
-        <p>Item 1</p>
-      </div>
-      <div class="item">
-        <p>Item 2</p>
-      </div>
-      <div class="item">
-        <p>Item 3</p>
+    <div class="container" style="margin-top: 2rem">
+      <div class="container">
+        <div
+          class="item"
+          data-scroll-animation="slide-up"
+          data-scroll-duration="1000"
+        >
+          <p>Slide Up</p>
+        </div>
+        <div class="item" data-scroll-animation="slide-right">
+          <p>Slide Right</p>
+        </div>
+        <div class="item" data-scroll-animation="slide-left">
+          <p>Slide Left</p>
+        </div>
+        <div class="item">
+          <p>Slide Down</p>
+        </div>
+        <div class="item" data-scroll-animation="fade-in">
+          <p>Fade In</p>
+        </div>
       </div>
     </div>
-    <script src="../dist/js/scroll.js"></script>
+    <script src="../../dist/js/scroll.js"></script>
   </body>
 </html>

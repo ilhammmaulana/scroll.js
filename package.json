@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Animation scroll library easy to use and customize",
   "main": "scroll.js",
+  "type": "module",
   "directories": {
     "example": "example",
     "test": "test"
