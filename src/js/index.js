@@ -1,3 +1,7 @@
+import elements from "./helper/elements";
+
+
+
 const Scroll = {
   options: {
     duration: 0,   // Default duration
@@ -11,8 +15,7 @@ const Scroll = {
   },
 
   initScrollAnimations() {
-    const animateElements = document.querySelectorAll("[data-scroll-animation]");
-    animateElements.forEach((element) => {
+    elements.forEach((element) => {
       const delayAttribute = parseInt(element.getAttribute("data-scroll-delay"));
       const offsetAttribute = parseInt(element.getAttribute("data-scroll-offset"));
       const delay = isNaN(delayAttribute) ? this.options.delay : delayAttribute;
