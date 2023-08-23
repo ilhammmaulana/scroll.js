@@ -1,4 +1,6 @@
-export default () => {
-    const animateElements = document.querySelectorAll("[data-scroll-animation]");
-    return Array.prototype.map.call(animateElements, node = ({ node }))
-} 
+const { CleanPlugin } = require("webpack");
+
+module.exports = () => {
+  const animateElements = document.querySelectorAll("[data-scroll-animation]");
+  return animateElements;
+};

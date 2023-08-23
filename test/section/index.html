@@ -1,12 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Section</title>
+    <link rel="stylesheet" href="../../dist/css/scroll.css" />
   </head>
   <body>
-    <section></section>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      section {
+        height: 100vh;
+        background-color: #bb2525;
+        color: #fff;
+        display: flex;
+      }
+      section h1 {
+        font-size: 4rem;
+        margin: auto;
+      }
+    </style>
+    <section>
+      <h1>Section 1</h1>
+    </section>
+    <section data-scroll-animation="slide-up" style="background-color: #5c5470">
+      <h1>Section 2</h1>
+    </section>
+    <section data-scroll-animation="slide-up" style="background-color: #ff6969">
+      <h1>Section 3</h1>
+    </section>
+    <section data-scroll-animation="slide-up" style="background-color: #279eff">
+      <h1>Section 4</h1>
+    </section>
+    <script src="../../dist/js/scroll.js"></script>
   </body>
 </html>
